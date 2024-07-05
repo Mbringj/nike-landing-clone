@@ -1,9 +1,15 @@
-import { Hero,CustomerReviews, Footer, Services, SpecialOffer, Subcribe, PopularProducts, SuperQualitySections} from './sections/index';
+import { Hero, CustomerReviews, Footer, Services, 
+         SpecialOffer, Subcribe, PopularProducts, 
+         SuperQualitySections
+} from './sections/index';
+import Nav from './components/Nav';
+
+
 function App() {  
 
   return (
     <main>
-      Nav
+      <Nav />
       <section className="xl:padding-1 wide:padding-t padding-b">
         <Hero />
       </section>
