@@ -1,11 +1,37 @@
-function App() {
+import { Hero,CustomerReviews, Footer, Services, SpecialOffer, Subcribe, PopularProducts, SuperQualitySections} from './sections/index';
+function App() {  
 
   return (
-    <>
-      <h1 className="text-3xl font-bold bg-blue-400 underline">
-        Hello world!
-      </h1>
-    </>
+    <main>
+      Nav
+      <section className="xl:padding-1 wide:padding-t padding-b">
+        <Hero />
+      </section>
+      <section className="padding">
+        <PopularProducts />
+      </section>
+      <section className="padding">
+        <SuperQualitySections />
+      </section>
+      <section className="padding">
+        <Services />
+      </section>
+      <section className="padding">
+        <SpecialOffer />
+      </section>
+      <section className="bg-pale-blue padding">
+        <CustomerReviews />
+      </section>
+      <section className="padding">
+        CustomerReviews
+      </section> 
+      <section className="padding-x sm:py-32 py-16 padding">
+        <Subcribe />
+      </section>
+      <section className="padding-x padding-t pb-8 padding">
+        <Footer />
+      </section>
+    </main>
   )
 }
 
