@@ -2,7 +2,7 @@ import { Hero, CustomerReviews, Footer, Services,
          SpecialOffer, Subcribe, PopularProducts, 
          SuperQualitySections
 } from './sections/index';
-import Nav from './Nav';
+import Nav from './components/Nav';
 
 
 function App() {  
