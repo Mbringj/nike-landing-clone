@@ -28,9 +28,6 @@ function App() {
       <section className="bg-pale-blue padding">
         <CustomerReviews />
       </section>
-      <section className="padding">
-        CustomerReviews
-      </section> 
       <section className="padding-x sm:py-32 py-16 padding">
         <Subcribe />
       </section>
