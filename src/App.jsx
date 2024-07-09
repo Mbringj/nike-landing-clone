@@ -2,7 +2,7 @@ import { Hero, CustomerReviews, Footer, Services,
          SpecialOffer, Subcribe, PopularProducts, 
          SuperQualitySections
 } from './sections/index';
-import Nav from './components/Nav';
+import Nav from './Nav';
 
 
 function App() {  
@@ -28,10 +28,10 @@ function App() {
       <section className="bg-pale-blue padding">
         <CustomerReviews />
       </section>
-      <section className="padding-x sm:py-32 py-16 padding">
+      <section className="padding-x sm:py-8 py-16 padding">
         <Subcribe />
       </section>
-      <section className="padding-x padding-t pb-8 padding">
+      <section className="padding-x padding-t pb-3  bg-black">
         <Footer />
       </section>
     </main>
